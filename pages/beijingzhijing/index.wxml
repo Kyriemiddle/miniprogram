@@ -1,0 +1,8 @@
+<!--pages/n9/index.wxml-->
+<view>
+  <image src="https://pic.downk.cc/item/5fd98e1c3ffa7d37b3f073f9.jpg"></image>
+  <image src="https://pic.downk.cc/item/5fd98e6b3ffa7d37b3f0df07.jpg"></image>
+  <image src="https://pic.downk.cc/item/5fd98e9a3ffa7d37b3f11570.jpg"></image>
+  <image src="https://pic.downk.cc/item/5fd98ef13ffa7d37b3f17bba.jpg"></image>
+</view>
+

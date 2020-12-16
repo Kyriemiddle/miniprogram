@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/n1/n1",
+    "pages/n2/n2",
+    "pages/collect/index",
+    "pages/guanzhu/index",
+    "pages/zhuanti/index",
+    "pages/zuji/index",
+    "pages/jiqiren/index",
+    "pages/sousuozhongxin/index",
+    "pages/beiyoufengguang/index",
+    "pages/beijingzhijing/index",
+    "pages/richangshenghuo/index",
+    "pages/zhutihuodong/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    
+    "navigationBarTextStyle":"white"
+  },
+"tabBar": {
+  "borderStyle": "white",
+  "selectedColor": "#FF0000",
+  "list": [{
+    "pagePath": "pages/index/index",
+    "text": "首页",
+    "iconPath": "icon/_camera.png",
+    "selectedIconPath": "icon/camera.png"
+  },
+  {
+    "pagePath": "pages/n1/n1",
+    "text": "分类",
+    "iconPath": "icon/_search.png",
+    "selectedIconPath": "icon/search.png"
+  },
+  {
+    "pagePath": "pages/n2/n2",
+    "text": "个人中心",
+    "iconPath": "icon/_ren.png",
+    "selectedIconPath": "icon/ren.png"
+  }
+  ]
+},
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

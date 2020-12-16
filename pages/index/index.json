@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "search":"../../components/search/search"
+  },
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTitleText": "定格",
+  "navigationBarTextStyle":"white"
+  
+
+}

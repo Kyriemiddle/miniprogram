@@ -1,0 +1,8 @@
+<!--pages/beiyoufengguang/index.wxml-->
+<view>
+  <image src="https://pic.downk.cc/item/5fd98ba33ffa7d37b3edb6f9.jpg"></image>
+  <image src="https://pic.downk.cc/item/5fd98ba93ffa7d37b3edbc57.jpg"></image>
+  <image src="https://pic.downk.cc/item/5fd98d5f3ffa7d37b3ef931e.jpg"></image>
+  <image src="https://pic.downk.cc/item/5fd98d5f3ffa7d37b3ef9321.jpg"></image>
+</view>
+

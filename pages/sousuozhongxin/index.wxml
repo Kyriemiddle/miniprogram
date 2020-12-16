@@ -1,0 +1,10 @@
+<view class="search_row">
+    <input value="{{inpValue}}" placeholder="请输入您要搜索的照片类型" bindinput="handleInput"></input>
+    <button bindtap="search">搜索</button>
+</view>
+
+<view class="section section_gap" wx:for="{{items}}" wx:for-item="url">
+      <view class="section__ctn">
+        <image src="{{url}}" data-url="{{url}}" bindlongpress="longPress"></image>
+    </view>
+</view>

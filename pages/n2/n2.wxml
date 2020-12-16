@@ -1,0 +1,78 @@
+<view class="user_info_wrap">
+    <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
+        <image  class="user_bg" src="{{userinfo.avatarUrl}}" />
+        <view class="user_info">
+            <image class="user_icon" src="{{userinfo.avatarUrl}}" />
+            <view class="user_name">{{userinfo.niceName}}</view>
+        </view>
+    </view>
+    <view wx:else class="user_btn">
+    <button type="primary" open-type="getUserInfo" bindgetuserinfo="handleGetuserInfo">
+            登录
+    </button>
+    </view>
+</view>
+
+<view class="user_content">
+    <view class="user_main">
+        <view class="history_wrap">
+            <navigator url="/pages/collect/index" >
+                <view class="his_num">0</view>
+                <view class="his_name">收藏的照片</view>
+            </navigator>
+            <navigator url="/pages/guanzhu/index">
+                <view class="his_num">0</view>
+                <view class="his_name">关注的用户</view>
+            </navigator>
+            <navigator url="/pages/zhuanti/index">
+                <view class="his_num">0</view>
+                <view class="his_name">关注的专题</view>
+            </navigator>
+            <navigator url="/pages/zuji/index">
+                <view class="his_num">0</view>
+                <view class="his_name">我的足迹</view>
+            </navigator>
+        </view>
+        <view class="orders_wrap">
+            <view class="orders_title">我的定格瞬间</view>
+            <view class="orders_content">
+
+                <navigator url="/pages/order/index?type=1">
+                    <view class="iconfont icon-ding_dan"></view>
+                    <view class="order_name">我上传的照片</view>
+                </navigator>
+
+                <navigator url="/pages/order/index?type=2">
+                    <view class="iconfont icon-fukuantongzhi"></view>
+                    <view class="order_name">待上传</view>
+                </navigator>
+
+                <navigator url="/pages/order/index?type=3">
+                    <view class="iconfont icon-receipt-address"></view>
+                    <view class="order_name">我的主页</view>
+                </navigator>
+
+                <navigator url="/pages/order/index?type=4">
+                    <view class="iconfont icon-tuihuotuikuan_dianpu"></view>
+                    <view class="order_name">私信</view>
+                </navigator>
+            </view>
+        </view>
+        <navigator url="/pages/jiqiren/index">
+        <view class="address_wrap">
+           机器人小对话 
+        </view>
+      </navigator>
+        <view class="app_info_wrap">
+            <view class="info_item info_contact">
+                <text >联系客服</text>
+                <text >xxx-xxx-xxxx</text>
+            </view>
+            <navigator url="/pages/feedback/index" class="info_item">意见反馈</navigator>
+            <view class="info_item">关于我们</view>
+        </view>
+        <view class="recommend_wrap">
+            把应用推荐给其他人
+        </view>
+    </view>
+</view>

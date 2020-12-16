@@ -1,0 +1,5 @@
+@import"./wenyi/iconfont.wxss";
+page{
+  --themecolor:#000;
+  
+}

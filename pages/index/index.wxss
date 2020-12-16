@@ -1,0 +1,5 @@
+view{color:var(--themecolour);}
+image{height: 300px;
+      width: 375px;
+}
+
